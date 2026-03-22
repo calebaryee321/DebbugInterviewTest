@@ -1,0 +1,579 @@
+{
+  "restaurant": {
+    "phrases": [
+      {
+        "phrase": "Buonasera, vorrei prenotare un tavolo per due.",
+        "translation": "Good evening, I would like to reserve a table for two.",
+        "context": "Making a dinner reservation",
+        "register": "polite"
+      },
+      {
+        "phrase": "Il conto, per favore.",
+        "translation": "The check, please.",
+        "context": "Asking for the bill",
+        "register": "polite"
+      },
+      {
+        "phrase": "Avete un menu in inglese?",
+        "translation": "Do you have a menu in English?",
+        "context": "Requesting an English menu",
+        "register": "polite"
+      },
+      {
+        "phrase": "Cosa mi consiglia?",
+        "translation": "What do you recommend?",
+        "context": "Asking for a recommendation",
+        "register": "polite"
+      },
+      {
+        "phrase": "Vorrei il primo del giorno.",
+        "translation": "I would like the first course of the day.",
+        "context": "Ordering the daily special primo",
+        "register": "polite"
+      },
+      {
+        "phrase": "Scusi, questo non è quello che ho ordinato.",
+        "translation": "Excuse me, this is not what I ordered.",
+        "context": "Politely pointing out a wrong dish",
+        "register": "polite"
+      },
+      {
+        "phrase": "Possiamo avere dell'acqua naturale?",
+        "translation": "Can we have still water?",
+        "context": "Ordering water (still vs sparkling)",
+        "register": "polite"
+      },
+      {
+        "phrase": "Sono allergico ai latticini.",
+        "translation": "I am allergic to dairy.",
+        "context": "Informing about a food allergy",
+        "register": "neutral"
+      }
+    ],
+    "polite_alternatives": {
+      "Voglio un tavolo.": "Vorrei un tavolo, per favore.",
+      "Dammi il conto.": "Il conto, per favore.",
+      "Non è quello che ho ordinato.": "Scusi, credo ci sia un errore con il mio ordine."
+    },
+    "culture_notes": [
+      "Italian meals follow a course structure: antipasto, primo, secondo, contorno, dolce — you are not expected to order every course.",
+      "The 'coperto' (cover charge) on your bill is standard and covers bread and table service.",
+      "Tipping is not expected but rounding up or leaving a euro or two is a nice gesture."
+    ]
+  },
+  "cafe": {
+    "phrases": [
+      {
+        "phrase": "Un caffè, per favore.",
+        "translation": "A coffee (espresso), please.",
+        "context": "Ordering a standard espresso at the bar",
+        "register": "polite"
+      },
+      {
+        "phrase": "Vorrei un cappuccino.",
+        "translation": "I would like a cappuccino.",
+        "context": "Ordering a cappuccino",
+        "register": "polite"
+      },
+      {
+        "phrase": "Un caffè macchiato, grazie.",
+        "translation": "An espresso with a dash of milk, thanks.",
+        "context": "Ordering a macchiato",
+        "register": "casual"
+      },
+      {
+        "phrase": "Quanto costa?",
+        "translation": "How much does it cost?",
+        "context": "Asking the price",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Devo pagare alla cassa?",
+        "translation": "Do I need to pay at the register?",
+        "context": "Asking about the payment process",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Un bicchiere d'acqua, per favore.",
+        "translation": "A glass of water, please.",
+        "context": "Requesting water with your coffee",
+        "register": "polite"
+      },
+      {
+        "phrase": "Posso sedermi al tavolo?",
+        "translation": "Can I sit at a table?",
+        "context": "Asking if table seating is available",
+        "register": "polite"
+      },
+      {
+        "phrase": "Vorrei una brioche alla crema.",
+        "translation": "I would like a cream-filled pastry.",
+        "context": "Ordering a pastry",
+        "register": "polite"
+      }
+    ],
+    "polite_alternatives": {
+      "Un caffè.": "Un caffè, per favore.",
+      "Dammi un cornetto.": "Vorrei un cornetto, per favore.",
+      "Acqua.": "Un bicchiere d'acqua, per favore."
+    },
+    "culture_notes": [
+      "In many Italian bars, you pay at the 'cassa' first, then present the receipt ('scontrino') at the bar.",
+      "Cappuccino is considered a breakfast drink — ordering one after noon is unusual to Italians.",
+      "Drinking at the bar ('al banco') is cheaper than sitting at a table ('al tavolo')."
+    ]
+  },
+  "hotel": {
+    "phrases": [
+      {
+        "phrase": "Buongiorno, ho una prenotazione a nome di…",
+        "translation": "Good morning, I have a reservation under the name of…",
+        "context": "Checking in at the front desk",
+        "register": "polite"
+      },
+      {
+        "phrase": "A che ora è la colazione?",
+        "translation": "What time is breakfast?",
+        "context": "Asking about breakfast schedule",
+        "register": "polite"
+      },
+      {
+        "phrase": "La colazione è inclusa?",
+        "translation": "Is breakfast included?",
+        "context": "Confirming whether breakfast is part of the rate",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Potrei avere una camera con vista?",
+        "translation": "Could I have a room with a view?",
+        "context": "Requesting a specific room",
+        "register": "polite"
+      },
+      {
+        "phrase": "Qual è la password del Wi-Fi?",
+        "translation": "What is the Wi-Fi password?",
+        "context": "Asking for internet access",
+        "register": "neutral"
+      },
+      {
+        "phrase": "A che ora è il check-out?",
+        "translation": "What time is checkout?",
+        "context": "Asking about departure time",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Potrebbe chiamarmi un taxi?",
+        "translation": "Could you call me a taxi?",
+        "context": "Requesting transportation",
+        "register": "polite"
+      }
+    ],
+    "polite_alternatives": {
+      "Voglio una camera.": "Vorrei una camera, per favore.",
+      "Chiamami un taxi.": "Potrebbe chiamarmi un taxi, per favore?",
+      "Dammi il Wi-Fi.": "Qual è la password del Wi-Fi, per favore?"
+    },
+    "culture_notes": [
+      "Italian hotels are required by law to collect your passport or ID at check-in.",
+      "Many smaller hotels and B&Bs ('pensioni') have a charm that larger chains lack.",
+      "Use 'Lei' (formal you) with hotel staff, not 'tu'."
+    ]
+  },
+  "train": {
+    "phrases": [
+      {
+        "phrase": "Un biglietto per Firenze, per favore.",
+        "translation": "A ticket to Florence, please.",
+        "context": "Buying a train ticket at the counter",
+        "register": "polite"
+      },
+      {
+        "phrase": "Da che binario parte il treno?",
+        "translation": "Which platform does the train leave from?",
+        "context": "Asking about the departure platform",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Questo treno è diretto?",
+        "translation": "Is this train direct?",
+        "context": "Asking if there are stops or transfers",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Il treno è in orario?",
+        "translation": "Is the train on time?",
+        "context": "Checking the schedule",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Vorrei un biglietto di andata e ritorno.",
+        "translation": "I would like a round-trip ticket.",
+        "context": "Purchasing a return ticket",
+        "register": "polite"
+      },
+      {
+        "phrase": "Dove devo convalidare il biglietto?",
+        "translation": "Where do I need to validate the ticket?",
+        "context": "Asking about ticket validation",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Scusi, questo posto è libero?",
+        "translation": "Excuse me, is this seat free?",
+        "context": "Asking if a seat is available",
+        "register": "polite"
+      },
+      {
+        "phrase": "Devo cambiare treno?",
+        "translation": "Do I need to change trains?",
+        "context": "Asking about transfers",
+        "register": "neutral"
+      }
+    ],
+    "polite_alternatives": {
+      "Un biglietto per Roma.": "Vorrei un biglietto per Roma, per favore.",
+      "Che binario?": "Mi scusi, da quale binario parte il treno?"
+    },
+    "culture_notes": [
+      "Regional train tickets must be validated ('convalidare') in the green machines on the platform before boarding.",
+      "Italy has two main train operators: Trenitalia and Italo — check both for the best price.",
+      "Alta Velocità (high-speed) trains like the Frecciarossa have assigned seats; regional trains usually do not."
+    ]
+  },
+  "shopping": {
+    "phrases": [
+      {
+        "phrase": "Cerco un regalo per un amico.",
+        "translation": "I'm looking for a gift for a friend.",
+        "context": "Explaining your shopping need",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Posso provare questo?",
+        "translation": "Can I try this on?",
+        "context": "Asking to try on clothing",
+        "register": "polite"
+      },
+      {
+        "phrase": "Ce l'avete in altri colori?",
+        "translation": "Do you have it in other colors?",
+        "context": "Asking about available colors",
+        "register": "polite"
+      },
+      {
+        "phrase": "Che taglia è questa?",
+        "translation": "What size is this?",
+        "context": "Asking about sizing",
+        "register": "neutral"
+      },
+      {
+        "phrase": "È in saldo?",
+        "translation": "Is this on sale?",
+        "context": "Asking about discounts",
+        "register": "casual"
+      },
+      {
+        "phrase": "Sto solo guardando, grazie.",
+        "translation": "I'm just looking, thanks.",
+        "context": "Politely declining assistance",
+        "register": "casual"
+      },
+      {
+        "phrase": "A che ora chiudete?",
+        "translation": "What time do you close?",
+        "context": "Asking about closing time",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Posso pagare con la carta?",
+        "translation": "Can I pay by card?",
+        "context": "Asking about payment methods",
+        "register": "neutral"
+      }
+    ],
+    "polite_alternatives": {
+      "Quanto costa?": "Mi potrebbe dire il prezzo, per favore?",
+      "Dammi quello.": "Prendo questo, per favore."
+    },
+    "culture_notes": [
+      "Italian sales ('saldi') have fixed seasons set by regional law — usually January/February and July/August.",
+      "Many smaller shops close for lunch ('pausa pranzo') from about 1 PM to 3:30 PM.",
+      "Always greet the shopkeeper with 'Buongiorno' when entering and 'Arrivederci' when leaving."
+    ]
+  },
+  "pharmacy": {
+    "phrases": [
+      {
+        "phrase": "Buongiorno, ho mal di stomaco.",
+        "translation": "Good morning, I have a stomach ache.",
+        "context": "Describing a stomach problem",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Ha qualcosa per il raffreddore?",
+        "translation": "Do you have something for a cold?",
+        "context": "Asking for cold medicine",
+        "register": "polite"
+      },
+      {
+        "phrase": "Quante volte al giorno devo prenderlo?",
+        "translation": "How many times a day should I take it?",
+        "context": "Asking about dosage",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Ho mal di testa da ieri.",
+        "translation": "I've had a headache since yesterday.",
+        "context": "Describing duration of symptoms",
+        "register": "neutral"
+      },
+      {
+        "phrase": "È disponibile senza ricetta?",
+        "translation": "Is it available without a prescription?",
+        "context": "Asking about over-the-counter availability",
+        "register": "polite"
+      },
+      {
+        "phrase": "Sono allergico alla penicillina.",
+        "translation": "I am allergic to penicillin.",
+        "context": "Informing about drug allergies",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Avete della crema solare?",
+        "translation": "Do you have sunscreen?",
+        "context": "Asking for a common product",
+        "register": "neutral"
+      }
+    ],
+    "polite_alternatives": {
+      "Dammi dell'aspirina.": "Potrei avere dell'aspirina, per favore?",
+      "Ho bisogno di medicine.": "Potrebbe consigliarmi qualcosa?"
+    },
+    "culture_notes": [
+      "Italian pharmacists are highly qualified and can advise on minor ailments without a prescription.",
+      "Pharmacies ('farmacie') are marked by a green cross; 'parafarmacie' sell fewer products.",
+      "Pharmacies rotate night and holiday duty — check the posted schedule on the door for the nearest open pharmacy."
+    ]
+  },
+  "directions": {
+    "phrases": [
+      {
+        "phrase": "Scusi, dove si trova il Colosseo?",
+        "translation": "Excuse me, where is the Colosseum?",
+        "context": "Asking for directions to a landmark",
+        "register": "polite"
+      },
+      {
+        "phrase": "È lontano da qui?",
+        "translation": "Is it far from here?",
+        "context": "Asking about distance",
+        "register": "casual"
+      },
+      {
+        "phrase": "Giri a destra, poi sempre dritto.",
+        "translation": "Turn right, then keep going straight.",
+        "context": "Understanding directional instructions",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Si può andare a piedi?",
+        "translation": "Can you walk there?",
+        "context": "Asking if a destination is within walking distance",
+        "register": "casual"
+      },
+      {
+        "phrase": "Potrebbe indicarmelo sulla mappa?",
+        "translation": "Could you show me on the map?",
+        "context": "Asking someone to point on a map",
+        "register": "polite"
+      },
+      {
+        "phrase": "Quanti minuti ci vogliono?",
+        "translation": "How many minutes does it take?",
+        "context": "Asking about travel time",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Dov'è la fermata dell'autobus più vicina?",
+        "translation": "Where is the nearest bus stop?",
+        "context": "Asking for public transport",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Cerco Via del Corso.",
+        "translation": "I'm looking for Via del Corso.",
+        "context": "Asking for a specific street",
+        "register": "neutral"
+      }
+    ],
+    "polite_alternatives": {
+      "Dov'è il Colosseo?": "Mi scusi, potrebbe indicarmi la strada per il Colosseo?",
+      "Dov'è?": "Mi potrebbe dire dove si trova, per favore?"
+    },
+    "culture_notes": [
+      "Use 'Scusi' (formal) or 'Scusa' (informal) to get someone's attention politely.",
+      "Italians frequently use hand gestures and landmarks when giving directions rather than street names.",
+      "Key direction words: 'a destra' (right), 'a sinistra' (left), 'dritto' or 'sempre dritto' (straight ahead)."
+    ]
+  },
+  "small_talk": {
+    "phrases": [
+      {
+        "phrase": "Che bella giornata!",
+        "translation": "What a beautiful day!",
+        "context": "Starting a conversation about the weather",
+        "register": "casual"
+      },
+      {
+        "phrase": "Di dove sei?",
+        "translation": "Where are you from?",
+        "context": "Asking someone's origin (informal)",
+        "register": "casual"
+      },
+      {
+        "phrase": "Sono qui in vacanza per una settimana.",
+        "translation": "I'm here on holiday for a week.",
+        "context": "Explaining the purpose of your visit",
+        "register": "casual"
+      },
+      {
+        "phrase": "Dove si mangia bene qui vicino?",
+        "translation": "Where can you eat well around here?",
+        "context": "Asking for a food recommendation",
+        "register": "casual"
+      },
+      {
+        "phrase": "È la mia prima volta a Roma.",
+        "translation": "It's my first time in Rome.",
+        "context": "Sharing that you are a first-time visitor",
+        "register": "casual"
+      },
+      {
+        "phrase": "Piacere!",
+        "translation": "Nice to meet you!",
+        "context": "Introducing yourself warmly",
+        "register": "casual"
+      },
+      {
+        "phrase": "Grazie mille, molto gentile.",
+        "translation": "Thank you so much, very kind.",
+        "context": "Expressing warm gratitude",
+        "register": "polite"
+      }
+    ],
+    "polite_alternatives": {
+      "Ciao.": "Buongiorno, piacere di conoscerla.",
+      "Come ti chiami?": "Come si chiama?"
+    },
+    "culture_notes": [
+      "Italians are generally warm and enjoy chatting — food is always a great conversation topic.",
+      "Use 'Lei' (formal) with strangers and older people; 'tu' with peers or when invited.",
+      "Common small-talk topics: food, football, travel, and the local area. Avoid discussing salaries or personal finances."
+    ]
+  },
+  "museum": {
+    "phrases": [
+      {
+        "phrase": "Due biglietti, per favore.",
+        "translation": "Two tickets, please.",
+        "context": "Buying museum tickets",
+        "register": "polite"
+      },
+      {
+        "phrase": "C'è uno sconto per studenti?",
+        "translation": "Is there a student discount?",
+        "context": "Asking about discounts",
+        "register": "polite"
+      },
+      {
+        "phrase": "Avete un'audioguida in inglese?",
+        "translation": "Do you have an audio guide in English?",
+        "context": "Asking about audio guides",
+        "register": "polite"
+      },
+      {
+        "phrase": "A che ora chiude il museo?",
+        "translation": "What time does the museum close?",
+        "context": "Asking about closing time",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Dove sono i servizi?",
+        "translation": "Where are the restrooms?",
+        "context": "Asking for the restrooms inside the museum",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Si possono fare foto?",
+        "translation": "Is it allowed to take photos?",
+        "context": "Asking about photography rules",
+        "register": "polite"
+      }
+    ],
+    "polite_alternatives": {
+      "Due biglietti.": "Vorrei due biglietti, per favore.",
+      "Posso fare foto?": "Scusi, è permesso fare fotografie?"
+    },
+    "culture_notes": [
+      "Many Italian museums offer free entry on the first Sunday of each month ('Domenica al museo').",
+      "EU citizens under 18 typically get free entry; those under 26 get reduced rates.",
+      "Large bags and backpacks often need to be checked at the coat room before entering exhibitions."
+    ]
+  },
+  "market": {
+    "phrases": [
+      {
+        "phrase": "Mezzo chilo di pomodori, per favore.",
+        "translation": "Half a kilo of tomatoes, please.",
+        "context": "Buying produce at a market stall",
+        "register": "polite"
+      },
+      {
+        "phrase": "Cosa mi consiglia oggi?",
+        "translation": "What do you recommend today?",
+        "context": "Asking the vendor for a recommendation",
+        "register": "polite"
+      },
+      {
+        "phrase": "Quanto costa al chilo?",
+        "translation": "How much per kilo?",
+        "context": "Asking about pricing",
+        "register": "neutral"
+      },
+      {
+        "phrase": "È di stagione?",
+        "translation": "Is it in season?",
+        "context": "Asking about seasonal availability",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Un etto di prosciutto crudo, per favore.",
+        "translation": "100 grams of cured ham, please.",
+        "context": "Ordering deli items by weight",
+        "register": "polite"
+      },
+      {
+        "phrase": "Posso assaggiare?",
+        "translation": "Can I taste it?",
+        "context": "Asking to sample before buying",
+        "register": "casual"
+      },
+      {
+        "phrase": "Basta così, grazie.",
+        "translation": "That's enough, thanks.",
+        "context": "Telling the vendor to stop adding more",
+        "register": "casual"
+      }
+    ],
+    "polite_alternatives": {
+      "Dammi dei pomodori.": "Mi dà dei pomodori, per favore?",
+      "Quanto costa?": "Mi potrebbe dire il prezzo?"
+    },
+    "culture_notes": [
+      "At Italian markets, the vendor usually handles the produce — do not touch items unless invited.",
+      "'Un etto' means 100 grams and is the standard small quantity for deli items.",
+      "Markets are best visited in the morning for the freshest selection; many close by early afternoon."
+    ]
+  }
+}

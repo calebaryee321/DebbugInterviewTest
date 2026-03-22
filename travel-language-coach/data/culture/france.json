@@ -1,0 +1,65 @@
+{
+  "country": "France",
+  "language": "french",
+  "categories": {
+    "greeting_etiquette": {
+      "title": "Greeting Etiquette",
+      "tips": [
+        "Always say 'Bonjour' (or 'Bonsoir' in the evening) when entering a shop, restaurant, or any establishment — this is considered essential politeness.",
+        "Use 'vous' (formal you) with strangers, service staff, and anyone older; 'tu' is reserved for friends, children, and peers who invite it.",
+        "A handshake is standard for first meetings; close friends may greet with 'la bise' (cheek kisses), the number of which varies by region.",
+        "When leaving, always say 'Au revoir' or 'Bonne journée/soirée' — departing without a goodbye is considered rude.",
+        "In smaller towns, it is common to greet other customers in a waiting room or small shop with a general 'Bonjour'."
+      ]
+    },
+    "restaurant_customs": {
+      "title": "Restaurant Customs",
+      "tips": [
+        "Dinner service in France typically starts at 7:30–8:00 PM; arriving earlier may mean the kitchen is not yet ready.",
+        "Service ('le service') is included in the bill by law — tipping is optional, but leaving small change or rounding up is a kind gesture.",
+        "Bread is placed directly on the table (not a plate) and is meant to accompany your meal, not as an appetizer with butter.",
+        "Asking for modifications to menu items (substitutions, removals) is much less common and may be met with resistance.",
+        "Water: ask for 'une carafe d'eau' for free tap water; otherwise you will receive (and be charged for) bottled water."
+      ]
+    },
+    "shopping_norms": {
+      "title": "Shopping Norms",
+      "tips": [
+        "Greet the shopkeeper with 'Bonjour' when entering and 'Au revoir' when leaving — even in large stores.",
+        "National sales periods ('soldes') are regulated by the government and occur twice a year (January and June/July).",
+        "Many small shops and businesses close between 12:00 PM and 2:00 PM for lunch, especially outside Paris.",
+        "Sunday closures are common for non-food shops; supermarkets may open on Sunday mornings in some areas.",
+        "Haggling is not customary in French shops, though it may be acceptable at flea markets ('marchés aux puces')."
+      ]
+    },
+    "transit_tips": {
+      "title": "Transit Tips",
+      "tips": [
+        "The Paris Métro uses a zone-based system; keep your ticket until you exit as inspectors may check.",
+        "TGV (high-speed train) tickets have assigned seats; regional TER tickets often do not.",
+        "Validate ('composter') paper tickets for regional trains in the yellow or green machines on the platform before boarding.",
+        "Announcements in stations and on trains are typically in French first, then English on major routes.",
+        "Strikes ('grèves') affecting transport are not uncommon — check SNCF or RATP websites for service updates."
+      ]
+    },
+    "pharmacy_expectations": {
+      "title": "Pharmacy Expectations",
+      "tips": [
+        "French pharmacists are trained to diagnose and treat minor ailments — describe your symptoms and they will recommend medication.",
+        "Pharmacies are identified by a flashing green cross; there is always one open nearby on nights and weekends (duty pharmacy).",
+        "Some medications available over-the-counter in other countries require a prescription ('ordonnance') in France.",
+        "Pharmacies also sell high-quality skincare and beauty products at competitive prices."
+      ]
+    },
+    "general_social_norms": {
+      "title": "General Social Norms",
+      "tips": [
+        "Speaking even a few words of French is deeply appreciated — always attempt before switching to English.",
+        "Ask 'Parlez-vous anglais ?' politely rather than launching directly into English.",
+        "The French value privacy — avoid asking personal questions about salary, age, or political preferences with acquaintances.",
+        "Meals are a social event and are not rushed; expect dinner to last 1.5–2 hours.",
+        "Queue etiquette is important — cutting in line is highly frowned upon."
+      ]
+    }
+  }
+}

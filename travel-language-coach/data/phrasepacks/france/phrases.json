@@ -1,0 +1,469 @@
+{
+  "restaurant": {
+    "phrases": [
+      {
+        "phrase": "Bonjour, je voudrais réserver une table pour deux personnes.",
+        "translation": "Hello, I would like to reserve a table for two.",
+        "context": "Making a reservation in person or by phone",
+        "register": "polite"
+      },
+      {
+        "phrase": "L'addition, s'il vous plaît.",
+        "translation": "The check, please.",
+        "context": "Asking for the bill at the end of a meal",
+        "register": "polite"
+      },
+      {
+        "phrase": "Est-ce que vous avez un menu en anglais ?",
+        "translation": "Do you have a menu in English?",
+        "context": "Requesting an English menu",
+        "register": "polite"
+      },
+      {
+        "phrase": "Je suis allergique aux noix.",
+        "translation": "I am allergic to nuts.",
+        "context": "Informing staff about a food allergy",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Qu'est-ce que vous recommandez ?",
+        "translation": "What do you recommend?",
+        "context": "Asking the waiter for a recommendation",
+        "register": "polite"
+      },
+      {
+        "phrase": "Je voudrais le plat du jour, s'il vous plaît.",
+        "translation": "I would like the dish of the day, please.",
+        "context": "Ordering the daily special",
+        "register": "polite"
+      },
+      {
+        "phrase": "Excusez-moi, ce n'est pas ce que j'ai commandé.",
+        "translation": "Excuse me, this is not what I ordered.",
+        "context": "Politely pointing out a wrong order",
+        "register": "polite"
+      },
+      {
+        "phrase": "Est-ce que le service est compris ?",
+        "translation": "Is the service charge included?",
+        "context": "Asking whether a tip is included in the bill",
+        "register": "polite"
+      }
+    ],
+    "polite_alternatives": {
+      "Je veux une table.": "Je voudrais une table, s'il vous plaît.",
+      "Donne-moi l'addition.": "L'addition, s'il vous plaît.",
+      "C'est pas ce que j'ai commandé.": "Excusez-moi, je crois qu'il y a une erreur dans ma commande."
+    },
+    "culture_notes": [
+      "Always say 'Bonjour' before making any request at a restaurant.",
+      "Tipping is not mandatory in France as service is usually included, but rounding up or leaving a euro or two is appreciated.",
+      "Bread is provided free at most French restaurants — you do not need to order it separately."
+    ]
+  },
+  "cafe": {
+    "phrases": [
+      {
+        "phrase": "Un café crème, s'il vous plaît.",
+        "translation": "A coffee with cream, please.",
+        "context": "Ordering a milky coffee at a café",
+        "register": "polite"
+      },
+      {
+        "phrase": "Je prendrais un thé au lait.",
+        "translation": "I'll have a tea with milk.",
+        "context": "Ordering tea",
+        "register": "polite"
+      },
+      {
+        "phrase": "Un croissant et un jus d'orange, s'il vous plaît.",
+        "translation": "A croissant and an orange juice, please.",
+        "context": "Ordering a typical French breakfast",
+        "register": "polite"
+      },
+      {
+        "phrase": "C'est combien ?",
+        "translation": "How much is it?",
+        "context": "Asking the price",
+        "register": "neutral"
+      },
+      {
+        "phrase": "On peut s'asseoir en terrasse ?",
+        "translation": "Can we sit on the terrace?",
+        "context": "Asking for outdoor seating",
+        "register": "casual"
+      },
+      {
+        "phrase": "Vous avez du Wi-Fi ?",
+        "translation": "Do you have Wi-Fi?",
+        "context": "Asking about internet access",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Un verre d'eau, s'il vous plaît.",
+        "translation": "A glass of water, please.",
+        "context": "Requesting tap water",
+        "register": "polite"
+      },
+      {
+        "phrase": "Je peux payer par carte ?",
+        "translation": "Can I pay by card?",
+        "context": "Asking about payment methods",
+        "register": "neutral"
+      }
+    ],
+    "polite_alternatives": {
+      "Un café.": "Un café, s'il vous plaît.",
+      "Donne-moi un croissant.": "Je prendrais un croissant, s'il vous plaît.",
+      "L'eau.": "Un verre d'eau, s'il vous plaît."
+    },
+    "culture_notes": [
+      "Sitting at a table (especially on the terrace) is more expensive than standing at the bar in some Parisian cafés.",
+      "A 'café' in France means an espresso by default — specify 'café crème' or 'café au lait' if you want milk.",
+      "Tap water ('une carafe d'eau') is free by law — you do not need to buy bottled water."
+    ]
+  },
+  "hotel": {
+    "phrases": [
+      {
+        "phrase": "Bonjour, j'ai une réservation au nom de…",
+        "translation": "Hello, I have a reservation under the name of…",
+        "context": "Checking in at the front desk",
+        "register": "polite"
+      },
+      {
+        "phrase": "À quelle heure est le petit-déjeuner ?",
+        "translation": "What time is breakfast?",
+        "context": "Asking about breakfast service",
+        "register": "polite"
+      },
+      {
+        "phrase": "Est-ce que je pourrais avoir une chambre avec vue ?",
+        "translation": "Could I have a room with a view?",
+        "context": "Requesting a specific room type",
+        "register": "polite"
+      },
+      {
+        "phrase": "Quel est le mot de passe du Wi-Fi ?",
+        "translation": "What is the Wi-Fi password?",
+        "context": "Asking for internet access details",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Je voudrais prolonger mon séjour d'une nuit.",
+        "translation": "I would like to extend my stay by one night.",
+        "context": "Extending a reservation",
+        "register": "polite"
+      },
+      {
+        "phrase": "À quelle heure est le check-out ?",
+        "translation": "What time is checkout?",
+        "context": "Asking about departure time",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Pourriez-vous m'appeler un taxi ?",
+        "translation": "Could you call me a taxi?",
+        "context": "Requesting transportation assistance",
+        "register": "polite"
+      }
+    ],
+    "polite_alternatives": {
+      "Je veux une chambre.": "Je voudrais une chambre, s'il vous plaît.",
+      "Appelle-moi un taxi.": "Pourriez-vous m'appeler un taxi, s'il vous plaît ?",
+      "Donne-moi le Wi-Fi.": "Quel est le mot de passe du Wi-Fi, s'il vous plaît ?"
+    },
+    "culture_notes": [
+      "French hotel star ratings are government-regulated and reflect standardized criteria.",
+      "Breakfast is often not included in the room rate — always confirm at check-in.",
+      "Use 'vous' with all hotel staff, even if they are young."
+    ]
+  },
+  "train": {
+    "phrases": [
+      {
+        "phrase": "Un billet pour Paris, s'il vous plaît.",
+        "translation": "A ticket to Paris, please.",
+        "context": "Buying a train ticket at the counter",
+        "register": "polite"
+      },
+      {
+        "phrase": "Le train part de quel quai ?",
+        "translation": "Which platform does the train leave from?",
+        "context": "Asking about the departure platform",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Est-ce que ce train est direct ?",
+        "translation": "Is this train direct?",
+        "context": "Asking if there are stops or transfers",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Le train est à l'heure ?",
+        "translation": "Is the train on time?",
+        "context": "Checking if the train is running on schedule",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Je voudrais un aller-retour pour Lyon.",
+        "translation": "I would like a round-trip ticket to Lyon.",
+        "context": "Purchasing a return ticket",
+        "register": "polite"
+      },
+      {
+        "phrase": "Où est-ce que je dois composter mon billet ?",
+        "translation": "Where do I need to validate my ticket?",
+        "context": "Asking about ticket validation",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Excusez-moi, cette place est occupée ?",
+        "translation": "Excuse me, is this seat taken?",
+        "context": "Asking if a seat is available",
+        "register": "polite"
+      }
+    ],
+    "polite_alternatives": {
+      "Un billet pour Paris.": "Je voudrais un billet pour Paris, s'il vous plaît.",
+      "C'est quel quai ?": "Pourriez-vous me dire de quel quai part le train ?"
+    },
+    "culture_notes": [
+      "TGV and intercity tickets have assigned seats; regional (TER) trains often do not.",
+      "Validate ('composter') your ticket in the yellow/green machines before boarding regional trains.",
+      "French trains use 24-hour time — '14h30' means 2:30 PM."
+    ]
+  },
+  "shopping": {
+    "phrases": [
+      {
+        "phrase": "Je cherche un cadeau pour un ami.",
+        "translation": "I'm looking for a gift for a friend.",
+        "context": "Explaining your shopping need",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Est-ce que je peux essayer ça ?",
+        "translation": "Can I try this on?",
+        "context": "Asking to try on clothing",
+        "register": "polite"
+      },
+      {
+        "phrase": "Vous l'avez en d'autres couleurs ?",
+        "translation": "Do you have it in other colors?",
+        "context": "Asking about available colors",
+        "register": "polite"
+      },
+      {
+        "phrase": "C'est en solde ?",
+        "translation": "Is this on sale?",
+        "context": "Asking about discounts",
+        "register": "casual"
+      },
+      {
+        "phrase": "Je fais du trente-huit.",
+        "translation": "I wear a size 38.",
+        "context": "Stating your clothing size (European sizing)",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Vous faites un emballage cadeau ?",
+        "translation": "Do you do gift wrapping?",
+        "context": "Requesting gift wrapping",
+        "register": "polite"
+      },
+      {
+        "phrase": "À quelle heure fermez-vous ?",
+        "translation": "What time do you close?",
+        "context": "Asking about closing time",
+        "register": "polite"
+      },
+      {
+        "phrase": "Je regarde juste, merci.",
+        "translation": "I'm just looking, thanks.",
+        "context": "Politely declining assistance",
+        "register": "casual"
+      }
+    ],
+    "polite_alternatives": {
+      "C'est combien ?": "Pourriez-vous me dire le prix, s'il vous plaît ?",
+      "Donne-moi ça.": "Je vais prendre celui-ci, s'il vous plaît."
+    },
+    "culture_notes": [
+      "Sales ('soldes') in France happen twice a year at government-set dates (January and June/July).",
+      "Most shops are closed on Sundays, except in tourist zones.",
+      "It is customary to greet the shopkeeper when entering and say goodbye when leaving."
+    ]
+  },
+  "pharmacy": {
+    "phrases": [
+      {
+        "phrase": "Bonjour, j'ai mal à la tête.",
+        "translation": "Hello, I have a headache.",
+        "context": "Describing a headache to the pharmacist",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Vous avez quelque chose contre le rhume ?",
+        "translation": "Do you have something for a cold?",
+        "context": "Asking for cold medicine",
+        "register": "polite"
+      },
+      {
+        "phrase": "Je dois le prendre combien de fois par jour ?",
+        "translation": "How many times a day should I take it?",
+        "context": "Asking about dosage",
+        "register": "neutral"
+      },
+      {
+        "phrase": "J'ai mal à la gorge depuis deux jours.",
+        "translation": "I've had a sore throat for two days.",
+        "context": "Describing duration of symptoms",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Est-ce que c'est disponible sans ordonnance ?",
+        "translation": "Is this available without a prescription?",
+        "context": "Asking about over-the-counter availability",
+        "register": "polite"
+      },
+      {
+        "phrase": "Je suis allergique à la pénicilline.",
+        "translation": "I am allergic to penicillin.",
+        "context": "Informing about drug allergies",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Vous avez de la crème solaire ?",
+        "translation": "Do you have sunscreen?",
+        "context": "Asking for a common product",
+        "register": "neutral"
+      }
+    ],
+    "polite_alternatives": {
+      "Donne-moi de l'aspirine.": "Est-ce que je pourrais avoir de l'aspirine, s'il vous plaît ?",
+      "J'ai besoin de médicaments.": "Pourriez-vous me recommander quelque chose ?"
+    },
+    "culture_notes": [
+      "French pharmacists can recommend treatments for minor ailments — always describe your symptoms.",
+      "Pharmacies are identified by a green cross and have regulated opening hours.",
+      "Some medications that are over-the-counter elsewhere require a prescription ('ordonnance') in France."
+    ]
+  },
+  "directions": {
+    "phrases": [
+      {
+        "phrase": "Excusez-moi, où se trouve la station de métro la plus proche ?",
+        "translation": "Excuse me, where is the nearest metro station?",
+        "context": "Asking for the nearest metro",
+        "register": "polite"
+      },
+      {
+        "phrase": "C'est loin d'ici ?",
+        "translation": "Is it far from here?",
+        "context": "Asking about distance",
+        "register": "casual"
+      },
+      {
+        "phrase": "Tournez à gauche, puis tout droit.",
+        "translation": "Turn left, then straight ahead.",
+        "context": "Understanding directional instructions",
+        "register": "neutral"
+      },
+      {
+        "phrase": "On peut y aller à pied ?",
+        "translation": "Can you walk there?",
+        "context": "Asking if a destination is within walking distance",
+        "register": "casual"
+      },
+      {
+        "phrase": "Pourriez-vous me montrer sur la carte ?",
+        "translation": "Could you show me on the map?",
+        "context": "Asking someone to point to a location on a map",
+        "register": "polite"
+      },
+      {
+        "phrase": "C'est à combien de minutes ?",
+        "translation": "How many minutes away is it?",
+        "context": "Asking about travel time",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Je cherche la rue Saint-Michel.",
+        "translation": "I'm looking for Rue Saint-Michel.",
+        "context": "Asking for a specific street",
+        "register": "neutral"
+      },
+      {
+        "phrase": "C'est environ combien en taxi ?",
+        "translation": "About how much would it cost by taxi?",
+        "context": "Asking about taxi fare estimate",
+        "register": "neutral"
+      }
+    ],
+    "polite_alternatives": {
+      "Où est le métro ?": "Excusez-moi, pourriez-vous m'indiquer la station de métro la plus proche ?",
+      "C'est où ?": "Pourriez-vous me dire où ça se trouve, s'il vous plaît ?"
+    },
+    "culture_notes": [
+      "Always start with 'Excusez-moi' or 'Pardon' before asking for directions.",
+      "It is polite to ask 'Parlez-vous anglais ?' before switching to English.",
+      "Learn the key direction words: 'à gauche' (left), 'à droite' (right), 'tout droit' (straight)."
+    ]
+  },
+  "small_talk": {
+    "phrases": [
+      {
+        "phrase": "Il fait beau aujourd'hui, n'est-ce pas ?",
+        "translation": "The weather is nice today, isn't it?",
+        "context": "Starting a conversation about the weather",
+        "register": "casual"
+      },
+      {
+        "phrase": "Vous êtes d'ici ?",
+        "translation": "Are you from here?",
+        "context": "Asking someone if they are a local",
+        "register": "neutral"
+      },
+      {
+        "phrase": "Je suis en vacances pour une semaine.",
+        "translation": "I'm on holiday for a week.",
+        "context": "Explaining the purpose of your visit",
+        "register": "casual"
+      },
+      {
+        "phrase": "Vous connaissez un bon restaurant dans le quartier ?",
+        "translation": "Do you know a good restaurant in the area?",
+        "context": "Asking for a local recommendation",
+        "register": "polite"
+      },
+      {
+        "phrase": "C'est ma première fois à Paris.",
+        "translation": "It's my first time in Paris.",
+        "context": "Sharing that you are a first-time visitor",
+        "register": "casual"
+      },
+      {
+        "phrase": "Merci beaucoup, c'est très gentil.",
+        "translation": "Thank you very much, that's very kind.",
+        "context": "Expressing warm gratitude",
+        "register": "polite"
+      },
+      {
+        "phrase": "Bonne journée !",
+        "translation": "Have a nice day!",
+        "context": "A friendly farewell",
+        "register": "casual"
+      }
+    ],
+    "polite_alternatives": {
+      "Salut.": "Bonjour, enchanté(e).",
+      "C'est quoi ton nom ?": "Comment vous appelez-vous ?"
+    },
+    "culture_notes": [
+      "French people may seem reserved at first but appreciate genuine effort to speak French.",
+      "Small talk topics: weather, food, the local area. Avoid politics and personal finances.",
+      "Use 'vous' with strangers and 'tu' only when explicitly invited or with peers your age in casual settings."
+    ]
+  }
+}

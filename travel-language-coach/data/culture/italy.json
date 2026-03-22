@@ -1,0 +1,65 @@
+{
+  "country": "Italy",
+  "language": "italian",
+  "categories": {
+    "greeting_etiquette": {
+      "title": "Greeting Etiquette",
+      "tips": [
+        "Use 'Buongiorno' (morning/afternoon) and 'Buonasera' (evening) with strangers and in formal situations; 'Ciao' is informal and used with friends.",
+        "Use 'Lei' (formal you) with strangers and older people; 'tu' is for friends and peers — switching to 'tu' is usually explicitly proposed.",
+        "A handshake is standard in formal introductions; among friends, expect two kisses on the cheeks (left first, then right).",
+        "When entering a small shop or office, greet everyone with a general 'Buongiorno'; silence is considered impolite.",
+        "Saying 'Arrivederci' (formal) or 'Ciao' (informal) when leaving is expected — never leave without a goodbye."
+      ]
+    },
+    "restaurant_customs": {
+      "title": "Restaurant Customs",
+      "tips": [
+        "Italian meals follow a traditional course structure: antipasto, primo (pasta/rice), secondo (meat/fish), contorno (side), dolce (dessert) — but ordering only one or two courses is perfectly acceptable.",
+        "The 'coperto' (cover charge) on the bill is standard and covers bread and table service — it is not a tip.",
+        "Tipping ('mancia') is not expected but appreciated; rounding up the bill or leaving 1–2 euros is common.",
+        "Never ask for parmesan cheese on seafood pasta — it is considered a culinary faux pas.",
+        "Dinner service starts late by many standards: 7:30–9:00 PM is typical; restaurants may not open before 7:00 PM."
+      ]
+    },
+    "shopping_norms": {
+      "title": "Shopping Norms",
+      "tips": [
+        "Many small shops close for a lunch break ('pausa pranzo') from approximately 1:00 PM to 3:30 PM.",
+        "Sales seasons ('saldi') are regulated by regional law and typically run in January/February and July/August.",
+        "Always greet the shopkeeper when entering ('Buongiorno') and say goodbye when leaving ('Arrivederci').",
+        "Haggling is not customary in shops but may be acceptable at outdoor markets and antique fairs.",
+        "Sunday and Monday mornings are common closing times for small and family-run shops."
+      ]
+    },
+    "transit_tips": {
+      "title": "Transit Tips",
+      "tips": [
+        "Regional train tickets must be validated ('convalidare') in the small green machines on the platform before boarding — failing to do so risks a fine.",
+        "Italy has two main train operators: Trenitalia and Italo (NTV) — compare prices as they can differ significantly.",
+        "City buses and trams require pre-purchased tickets, available at 'tabaccherie' (tobacco shops) or newsstands — validate on board.",
+        "Strikes ('scioperi') are relatively common — check transport authority websites for announcements.",
+        "High-speed trains (Frecciarossa, Frecciargento) have assigned seats; regional trains generally do not."
+      ]
+    },
+    "pharmacy_expectations": {
+      "title": "Pharmacy Expectations",
+      "tips": [
+        "Italian pharmacists are highly qualified professionals who can recommend treatments for minor health issues.",
+        "Pharmacies ('farmacie') are marked by a green cross; 'parafarmacie' sell a smaller range of non-prescription items.",
+        "A duty pharmacy ('farmacia di turno') schedule is posted on every pharmacy door — there is always one open nearby at night and on holidays.",
+        "Bring your passport or European Health Insurance Card if you need a prescription filled as a foreigner."
+      ]
+    },
+    "general_social_norms": {
+      "title": "General Social Norms",
+      "tips": [
+        "Attempting to speak Italian, even imperfectly, is warmly appreciated — Italians are generally patient and encouraging with language learners.",
+        "Food culture is deeply important — avoid asking for ketchup, requesting major menu modifications, or ordering cappuccino after a meal.",
+        "Personal space is smaller than in many Northern European or North American cultures — expect animated gestures and closer conversation distance.",
+        "Italians tend to dress well even for casual outings; wearing beachwear or very casual clothing away from the beach may attract attention.",
+        "Meals are a social occasion and should not be rushed — lunchtime is sacred and dinner can last two hours or more."
+      ]
+    }
+  }
+}
