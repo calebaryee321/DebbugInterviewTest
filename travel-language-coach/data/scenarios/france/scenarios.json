@@ -1,0 +1,277 @@
+[
+  {
+    "scenario_id": "fr_cafe_breakfast",
+    "country": "France",
+    "city": "Paris",
+    "category": "cafe",
+    "difficulty": "beginner",
+    "local_role": "patient waiter",
+    "goal": "Order a coffee with milk and a croissant, then ask for the check.",
+    "failure_modes": [
+      "Forgetting to greet with 'Bonjour' before ordering",
+      "Using informal 'tu' instead of 'vous' with the waiter",
+      "Not knowing how to ask for the bill"
+    ],
+    "pressure_elements": [
+      "The café is busy and the waiter checks back quickly",
+      "Background noise makes it hard to hear the waiter's response"
+    ],
+    "culture_notes": [
+      "Always greet with 'Bonjour' before making any request",
+      "In French cafés, you typically pay at the end, not when ordering"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_bakery_order",
+    "country": "France",
+    "city": "Lyon",
+    "category": "shopping",
+    "difficulty": "beginner",
+    "local_role": "friendly baker",
+    "goal": "Buy a baguette and two pain au chocolat, asking which bread is freshest.",
+    "failure_modes": [
+      "Not greeting the baker upon entering",
+      "Struggling with numbers or quantities",
+      "Not saying 'merci, au revoir' when leaving"
+    ],
+    "pressure_elements": [
+      "A short queue forms behind you",
+      "The baker speaks quickly with a regional accent"
+    ],
+    "culture_notes": [
+      "French bakeries expect you to greet everyone when entering and leaving",
+      "Pointing at items is acceptable but try to name them"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_dinner_reservation",
+    "country": "France",
+    "city": "Paris",
+    "category": "restaurant",
+    "difficulty": "elementary",
+    "local_role": "formal host",
+    "goal": "Reserve a table for two at 8 PM, mention a window-seat preference and a dairy allergy.",
+    "failure_modes": [
+      "Mixing up times or failing to specify 'vingt heures'",
+      "Not knowing the word for allergy ('allergie')",
+      "Using overly casual language in a formal restaurant"
+    ],
+    "pressure_elements": [
+      "The host seems slightly rushed during a busy evening",
+      "You need to confirm details the host repeats back to you"
+    ],
+    "culture_notes": [
+      "Dinner in France typically starts at 8 PM or later",
+      "Use 'vous' and polite conditionals ('je voudrais') in upscale restaurants"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_hotel_checkin",
+    "country": "France",
+    "city": "Nice",
+    "category": "hotel",
+    "difficulty": "elementary",
+    "local_role": "efficient receptionist",
+    "goal": "Check in to your hotel, confirm the reservation dates, and ask about breakfast times and Wi-Fi.",
+    "failure_modes": [
+      "Mispronouncing your own name in a way the receptionist cannot find the booking",
+      "Not understanding the receptionist's fast-paced confirmation",
+      "Forgetting polite phrases like 's'il vous plaît'"
+    ],
+    "pressure_elements": [
+      "The receptionist speaks quickly and uses hotel-specific vocabulary",
+      "Other guests are waiting behind you"
+    ],
+    "culture_notes": [
+      "French hotel staff appreciate when you attempt French even if imperfect",
+      "Breakfast ('petit-déjeuner') is often not included — always confirm"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_asking_directions",
+    "country": "France",
+    "city": "Marseille",
+    "category": "directions",
+    "difficulty": "beginner",
+    "local_role": "helpful local",
+    "goal": "Ask for directions to the nearest metro station and confirm which line to take.",
+    "failure_modes": [
+      "Not understanding left/right ('à gauche'/'à droite') instructions",
+      "Failing to politely get the person's attention first",
+      "Mixing up 'tout droit' (straight ahead) with other phrases"
+    ],
+    "pressure_elements": [
+      "The local gives directions quickly with hand gestures",
+      "Street noise makes it hard to catch every word"
+    ],
+    "culture_notes": [
+      "Start with 'Excusez-moi' to politely get someone's attention",
+      "French people appreciate if you ask 'Parlez-vous anglais ?' rather than launching into English"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_pharmacy_request",
+    "country": "France",
+    "city": "Paris",
+    "category": "pharmacy",
+    "difficulty": "intermediate",
+    "local_role": "busy pharmacist",
+    "goal": "Describe a headache and sore throat, ask for recommended medicine, and confirm dosage instructions.",
+    "failure_modes": [
+      "Not knowing body-part vocabulary ('gorge' for throat, 'tête' for head)",
+      "Misunderstanding dosage instructions (e.g., 'trois fois par jour')",
+      "Using 'tu' with the pharmacist instead of 'vous'"
+    ],
+    "pressure_elements": [
+      "The pharmacist asks follow-up questions about symptoms",
+      "Other customers are waiting and the pharmacist is efficient but brisk"
+    ],
+    "culture_notes": [
+      "French pharmacists are trained medical professionals and can recommend treatments",
+      "Pharmacies are marked by a green cross and are the first stop for minor ailments"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_train_platform",
+    "country": "France",
+    "city": "Lyon",
+    "category": "train",
+    "difficulty": "intermediate",
+    "local_role": "mildly impatient station agent",
+    "goal": "Find the correct platform for your TGV to Paris, confirm departure time, and ask if the train is on schedule.",
+    "failure_modes": [
+      "Confusing 'voie' (track) with 'quai' (platform) terminology",
+      "Not understanding time announcements over the PA system",
+      "Being too hesitant and losing the agent's attention"
+    ],
+    "pressure_elements": [
+      "The departure is in 10 minutes and the agent has a queue",
+      "Platform announcements are echoing and hard to understand"
+    ],
+    "culture_notes": [
+      "French train stations use 24-hour time format",
+      "You must validate ('composter') certain tickets before boarding regional trains"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_wrong_meal",
+    "country": "France",
+    "city": "Paris",
+    "category": "restaurant",
+    "difficulty": "upper_intermediate",
+    "local_role": "slightly confused waiter",
+    "goal": "Politely explain you received the wrong dish, describe what you actually ordered, and request the correct meal.",
+    "failure_modes": [
+      "Being too blunt or aggressive when complaining",
+      "Not remembering the name of the dish you ordered",
+      "Failing to use the conditional tense for politeness"
+    ],
+    "pressure_elements": [
+      "The waiter seems unsure and calls over a colleague",
+      "Your dining companion is waiting to eat"
+    ],
+    "culture_notes": [
+      "In France, complaints are best delivered calmly and with polite phrasing",
+      "Use 'je crois qu'il y a une erreur' rather than directly accusing the waiter"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_opening_hours",
+    "country": "France",
+    "city": "Bordeaux",
+    "category": "shopping",
+    "difficulty": "beginner",
+    "local_role": "shopkeeper",
+    "goal": "Ask what time the shop opens and closes, and whether it is open on Sundays.",
+    "failure_modes": [
+      "Not understanding time expressions ('de neuf heures à dix-huit heures')",
+      "Forgetting to greet the shopkeeper first",
+      "Confusing 'ouvert' (open) with 'fermé' (closed)"
+    ],
+    "pressure_elements": [
+      "The shopkeeper answers quickly while arranging merchandise"
+    ],
+    "culture_notes": [
+      "Many French shops close for lunch between 12 PM and 2 PM",
+      "Sunday opening is not guaranteed — always ask ('Vous êtes ouvert le dimanche ?')"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_gift_shopping",
+    "country": "France",
+    "city": "Nice",
+    "category": "shopping",
+    "difficulty": "elementary",
+    "local_role": "attentive salesclerk",
+    "goal": "Ask for help choosing a gift, specify your budget, and request gift wrapping.",
+    "failure_modes": [
+      "Not knowing how to express a price range ('entre vingt et trente euros')",
+      "Struggling with clothing or accessory vocabulary",
+      "Not using polite conditional forms for requests"
+    ],
+    "pressure_elements": [
+      "The salesclerk offers several options and asks your preferences",
+      "You need to understand descriptions of materials and colors"
+    ],
+    "culture_notes": [
+      "Gift wrapping ('emballage cadeau') is often offered free at French boutiques",
+      "Saying 'je cherche un cadeau pour…' is a natural way to start"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_small_talk_concierge",
+    "country": "France",
+    "city": "Paris",
+    "category": "small_talk",
+    "difficulty": "intermediate",
+    "local_role": "chatty concierge",
+    "goal": "Make small talk with the hotel concierge about the weather, ask for a local restaurant recommendation, and thank them warmly.",
+    "failure_modes": [
+      "Not being able to sustain a short exchange beyond one sentence",
+      "Using overly textbook-style phrases that sound unnatural",
+      "Missing the concierge's casual slang or contractions"
+    ],
+    "pressure_elements": [
+      "The concierge is friendly and keeps the conversation going",
+      "They use colloquial expressions you may not have studied"
+    ],
+    "culture_notes": [
+      "French small talk often starts with the weather or complimenting the area",
+      "A warm 'Merci beaucoup, c'est très gentil' goes a long way"
+    ],
+    "language": "french"
+  },
+  {
+    "scenario_id": "fr_taxi_confusion",
+    "country": "France",
+    "city": "Marseille",
+    "category": "directions",
+    "difficulty": "upper_intermediate",
+    "local_role": "rushed taxi driver",
+    "goal": "Explain your destination when the driver misunderstands, negotiate a route preference, and confirm the fare.",
+    "failure_modes": [
+      "Mispronouncing the destination address",
+      "Not understanding the driver's rapid, colloquial speech",
+      "Failing to assert your route preference politely"
+    ],
+    "pressure_elements": [
+      "The driver is in a hurry and speaks very fast with slang",
+      "Traffic noise and the car radio make it hard to hear"
+    ],
+    "culture_notes": [
+      "Taxis in France use meters — you can ask 'C'est environ combien ?' for an estimate",
+      "It's polite to greet the driver and say goodbye when exiting"
+    ],
+    "language": "french"
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "scenario_id": "it_espresso_bar",
+    "country": "Italy",
+    "city": "Rome",
+    "category": "cafe",
+    "difficulty": "beginner",
+    "local_role": "fast barista",
+    "goal": "Order an espresso and a glass of water at the bar, pay at the cassa first.",
+    "failure_modes": [
+      "Not paying at the cash register ('cassa') before ordering at the bar",
+      "Asking for a 'latte' and receiving just milk instead of 'caffè latte'",
+      "Not knowing to drink at the bar to avoid the table surcharge"
+    ],
+    "pressure_elements": [
+      "The barista works quickly and expects concise orders",
+      "The bar is crowded during morning rush"
+    ],
+    "culture_notes": [
+      "In many Italian bars you pay at the 'cassa' first and bring your receipt ('scontrino') to the barista",
+      "Cappuccino is traditionally a morning drink — ordering it after lunch may draw looks"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_trattoria_dinner",
+    "country": "Italy",
+    "city": "Florence",
+    "category": "restaurant",
+    "difficulty": "elementary",
+    "local_role": "friendly waiter",
+    "goal": "Order a primo and a secondo from the menu, ask for the house wine, and request the bill at the end.",
+    "failure_modes": [
+      "Not understanding the traditional Italian course structure (primo, secondo, contorno)",
+      "Asking for parmesan on a seafood dish",
+      "Not knowing how to ask for the bill ('il conto, per favore')"
+    ],
+    "pressure_elements": [
+      "The waiter recites daily specials quickly",
+      "You need to understand unlisted specials described only verbally"
+    ],
+    "culture_notes": [
+      "Italian meals follow a course structure: antipasto, primo, secondo, contorno, dolce",
+      "Bread is often charged as 'coperto' (cover charge) — this is normal"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_hotel_checkin",
+    "country": "Italy",
+    "city": "Milan",
+    "category": "hotel",
+    "difficulty": "elementary",
+    "local_role": "professional receptionist",
+    "goal": "Check in, confirm your reservation for two nights, and ask about breakfast hours and nearby restaurants.",
+    "failure_modes": [
+      "Mispronouncing your name so the receptionist cannot find the booking",
+      "Not understanding fast-spoken check-in details",
+      "Forgetting polite phrases like 'per favore' and 'grazie'"
+    ],
+    "pressure_elements": [
+      "The receptionist uses formal Italian and hotel-specific vocabulary",
+      "A group of guests arrives right after you"
+    ],
+    "culture_notes": [
+      "Italian hotels require your passport or ID at check-in by law",
+      "Breakfast ('colazione') is often included — ask 'La colazione è inclusa?'"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_asking_directions",
+    "country": "Italy",
+    "city": "Rome",
+    "category": "directions",
+    "difficulty": "beginner",
+    "local_role": "helpful passerby",
+    "goal": "Ask for directions to the Colosseum and confirm whether it is within walking distance.",
+    "failure_modes": [
+      "Not understanding directional words ('a destra', 'a sinistra', 'dritto')",
+      "Failing to politely get the person's attention first",
+      "Confusing landmarks or street names"
+    ],
+    "pressure_elements": [
+      "The passerby uses hand gestures extensively and speaks quickly",
+      "Busy street noise makes listening difficult"
+    ],
+    "culture_notes": [
+      "Start with 'Scusi' (formal) or 'Scusa' (informal) to get attention",
+      "Italians often give directions using landmarks rather than street names"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_clothes_shopping",
+    "country": "Italy",
+    "city": "Milan",
+    "category": "shopping",
+    "difficulty": "intermediate",
+    "local_role": "stylish salesperson",
+    "goal": "Ask to try on a jacket in a different size, inquire about available colors, and ask if there is a discount.",
+    "failure_modes": [
+      "Not knowing Italian clothing sizes or how to ask for them",
+      "Struggling with color vocabulary beyond basic colors",
+      "Being too direct when asking about discounts — considered impolite"
+    ],
+    "pressure_elements": [
+      "The salesperson offers enthusiastic suggestions in rapid Italian",
+      "You need to understand descriptions of fabric and fit"
+    ],
+    "culture_notes": [
+      "Italian sizing differs from US/UK — ask 'Che taglia è questa?' to confirm",
+      "Sales ('saldi') happen in fixed seasons; asking for discounts outside sale periods is uncommon"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_pharmacy_interaction",
+    "country": "Italy",
+    "city": "Florence",
+    "category": "pharmacy",
+    "difficulty": "intermediate",
+    "local_role": "knowledgeable pharmacist",
+    "goal": "Explain that you have a stomach ache and ask for an over-the-counter remedy, confirming how often to take it.",
+    "failure_modes": [
+      "Not knowing body-part vocabulary ('stomaco', 'mal di pancia')",
+      "Misunderstanding dosage instructions ('due volte al giorno')",
+      "Confusing 'farmacia' with 'parafarmacia' which has fewer products"
+    ],
+    "pressure_elements": [
+      "The pharmacist asks clarifying questions about your symptoms",
+      "Other customers are waiting in line behind you"
+    ],
+    "culture_notes": [
+      "Italian pharmacists are highly trained and can recommend treatments without a prescription for many ailments",
+      "Pharmacies rotate night and weekend duty — check the posted schedule on the door"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_train_ticket",
+    "country": "Italy",
+    "city": "Milan",
+    "category": "train",
+    "difficulty": "intermediate",
+    "local_role": "busy ticket agent",
+    "goal": "Buy a train ticket to Florence, ask about departure times, and confirm which platform to go to.",
+    "failure_modes": [
+      "Confusing 'binario' (platform) numbers",
+      "Not understanding the difference between regionale and alta velocità trains",
+      "Failing to validate the ticket before boarding a regional train"
+    ],
+    "pressure_elements": [
+      "The ticket agent is handling a long queue and speaks quickly",
+      "Your train departs in 15 minutes"
+    ],
+    "culture_notes": [
+      "Regional train tickets in Italy must be validated ('convalidare') at the green machines before boarding",
+      "Trenitalia and Italo are two separate train operators — prices and platforms may differ"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_museum_ticket",
+    "country": "Italy",
+    "city": "Florence",
+    "category": "museum",
+    "difficulty": "elementary",
+    "local_role": "patient desk clerk",
+    "goal": "Buy two museum tickets, ask about student discounts, and inquire if an audio guide is available in English.",
+    "failure_modes": [
+      "Not knowing 'ridotto' (reduced price) or 'intero' (full price)",
+      "Forgetting to ask if a student ID is required for the discount",
+      "Not understanding the clerk's explanation of available tours"
+    ],
+    "pressure_elements": [
+      "A group tour is forming and the clerk is multitasking",
+      "You need to decide quickly before a time slot fills up"
+    ],
+    "culture_notes": [
+      "Many Italian museums offer free entry on the first Sunday of each month",
+      "EU citizens under 26 often get free or reduced entry — always ask"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_market_stall",
+    "country": "Italy",
+    "city": "Rome",
+    "category": "market",
+    "difficulty": "intermediate",
+    "local_role": "enthusiastic vendor",
+    "goal": "Buy fresh tomatoes and mozzarella at a market stall, ask what is in season, and negotiate a small quantity.",
+    "failure_modes": [
+      "Not knowing weight measurements ('un etto' = 100 grams, 'un chilo')",
+      "Touching the produce without asking — considered rude in many stalls",
+      "Not understanding rapid price quotes"
+    ],
+    "pressure_elements": [
+      "The vendor calls out to you enthusiastically and speaks fast",
+      "Other customers are reaching past you for items"
+    ],
+    "culture_notes": [
+      "At Italian markets, let the vendor handle the produce unless invited to choose yourself",
+      "Asking 'Cosa mi consiglia?' (What do you recommend?) is a great way to engage"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_wrong_order",
+    "country": "Italy",
+    "city": "Rome",
+    "category": "restaurant",
+    "difficulty": "upper_intermediate",
+    "local_role": "apologetic waiter",
+    "goal": "Politely explain you received the wrong dish, describe what you ordered, and confirm the replacement.",
+    "failure_modes": [
+      "Being too aggressive or too passive when raising the issue",
+      "Not remembering the Italian name of the dish you ordered",
+      "Misunderstanding the waiter's proposed solution"
+    ],
+    "pressure_elements": [
+      "Your dining companions have already received their food",
+      "The restaurant is busy and the waiter is managing several tables"
+    ],
+    "culture_notes": [
+      "Italians value politeness in complaints — 'Mi scusi, credo ci sia un errore' works well",
+      "Sending food back is acceptable if done politely; the kitchen will correct it quickly"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_opening_hours",
+    "country": "Italy",
+    "city": "Florence",
+    "category": "shopping",
+    "difficulty": "beginner",
+    "local_role": "friendly local",
+    "goal": "Ask a local shopkeeper what time their store opens and closes, and whether they close for lunch.",
+    "failure_modes": [
+      "Not understanding time expressions ('dalle nove alle diciotto')",
+      "Confusing 'aperto' (open) with 'chiuso' (closed)",
+      "Not greeting the shopkeeper before asking"
+    ],
+    "pressure_elements": [
+      "The shopkeeper answers while serving another customer"
+    ],
+    "culture_notes": [
+      "Many Italian shops close for a long lunch break ('pausa pranzo') from about 1 PM to 3:30 PM",
+      "Monday mornings and Sunday are common closing times for small shops"
+    ],
+    "language": "italian"
+  },
+  {
+    "scenario_id": "it_small_talk_cafe",
+    "country": "Italy",
+    "city": "Rome",
+    "category": "small_talk",
+    "difficulty": "elementary",
+    "local_role": "curious café regular",
+    "goal": "Introduce yourself, say where you are from, explain you are visiting Italy, and ask the regular for a local tip.",
+    "failure_modes": [
+      "Running out of things to say after the introduction",
+      "Using overly formal language in a casual café setting",
+      "Not understanding colloquial responses or Roman slang"
+    ],
+    "pressure_elements": [
+      "The regular is chatty and asks follow-up questions",
+      "Other patrons occasionally join the conversation"
+    ],
+    "culture_notes": [
+      "Italians love talking about food — asking 'Dove si mangia bene qui vicino?' is a great opener",
+      "A friendly 'Piacere!' (Nice to meet you!) sets a warm tone"
+    ],
+    "language": "italian"
+  }
+]
