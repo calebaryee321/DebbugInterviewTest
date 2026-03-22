@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
 from agents.base import BaseAgent
@@ -114,7 +114,7 @@ class MemoryAgent(BaseAgent):
 
     def store_learner_profile(self, profile: LearnerProfile) -> None:
         """Save or overwrite a :class:`LearnerProfile`."""
-        profile.updated_at = datetime.utcnow()
+        profile.updated_at = datetime.now(timezone.utc)
         self._learner_profiles[profile.learner_id] = profile
 
     def get_learner_profile(self, learner_id: str) -> Optional[LearnerProfile]:
@@ -127,7 +127,7 @@ class MemoryAgent(BaseAgent):
 
     def store_couple_profile(self, profile: CoupleProfile) -> None:
         """Save or overwrite a :class:`CoupleProfile`."""
-        profile.updated_at = datetime.utcnow()
+        profile.updated_at = datetime.now(timezone.utc)
         self._couple_profiles[profile.couple_profile_id] = profile
 
     def get_couple_profile(self, couple_id: str) -> Optional[CoupleProfile]:
@@ -151,7 +151,7 @@ class MemoryAgent(BaseAgent):
                 and existing.type == mistake.type
             ):
                 existing.recurrence_count += 1
-                existing.last_seen = datetime.utcnow()
+                existing.last_seen = datetime.now(timezone.utc)
                 return
         self._mistakes[mistake.learner_id].append(mistake)
 
@@ -176,7 +176,7 @@ class MemoryAgent(BaseAgent):
         if existing:
             existing.familiarity_score = mastery.familiarity_score
             existing.success_under_pressure = mastery.success_under_pressure
-            existing.last_practiced = mastery.last_practiced or datetime.utcnow()
+            existing.last_practiced = mastery.last_practiced or datetime.now(timezone.utc)
             existing.last_failed = mastery.last_failed
             existing.notes = list({*existing.notes, *mastery.notes})
         else:
@@ -219,7 +219,7 @@ class MemoryAgent(BaseAgent):
             "score_avg": score.weighted_average,
             "rating": score.overall_rating,
             "mistake_count": len(mistakes),
-            "completed_at": datetime.utcnow().isoformat(),
+            "completed_at": datetime.now(timezone.utc).isoformat(),
         }
         for lid in session.learner_ids:
             self._session_history.setdefault(lid, []).append(summary)

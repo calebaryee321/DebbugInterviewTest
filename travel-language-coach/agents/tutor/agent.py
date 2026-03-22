@@ -6,6 +6,8 @@ from typing import Any, Dict, List, Optional
 
 from agents.base import BaseAgent
 from lib.db.models import (
+    DifficultyLevel,
+    Language,
     LearnerProfile,
     Scenario,
 )
@@ -210,12 +212,10 @@ class TutorAgent(BaseAgent):
     # ------------------------------------------------------------------
 
     @staticmethod
-    def _learner_level(profile: LearnerProfile, language: "Language") -> str:
+    def _learner_level(profile: LearnerProfile, language: Language) -> str:
         """Extract the estimated level string for *language* from *profile*."""
-        from lib.db.models import Language as Lang
-
-        if language == Lang.FRENCH:
+        if language == Language.FRENCH:
             return profile.estimated_french_level.value
-        if language == Lang.ITALIAN:
+        if language == Language.ITALIAN:
             return profile.estimated_italian_level.value
         return DifficultyLevel.BEGINNER.value

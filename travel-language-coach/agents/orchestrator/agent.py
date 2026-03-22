@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 from uuid import uuid4
 
@@ -114,7 +114,7 @@ class OrchestratorAgent(BaseAgent):
             "language": language.value,
             "mode": mode.value,
             "couple_mode": couple_mode,
-            "created_at": datetime.utcnow().isoformat(),
+            "created_at": datetime.now(timezone.utc).isoformat(),
             "active_agents": self._determine_agents(mode),
             "state": "initialized",
         }
@@ -161,7 +161,7 @@ class OrchestratorAgent(BaseAgent):
             "session_id": session_id,
             "state": "completed",
             "recap": recap,
-            "completed_at": datetime.utcnow().isoformat(),
+            "completed_at": datetime.now(timezone.utc).isoformat(),
         }
 
     # ------------------------------------------------------------------
